@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 150px 1fr 130px;
+
+}
+
+
+header{
+  background-color: darkgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+main{
+    background-color: darkmagenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+}
+footer{
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 2rem;
+
+}
+.nav{
+    background-color: dimgrey;
+    display: flex;
+    flex-direction: column ;
+    height: 100%;
+    width: 20% ;
+    align-items: center;
+    justify-content: center;
+
+}
+.article{
+    background-color: dodgerblue;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.aside{
+    background-color: gold;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
